@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      这里是主程
-    
+      这里是主程<br>
+      路人乙注册aaa<br>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>

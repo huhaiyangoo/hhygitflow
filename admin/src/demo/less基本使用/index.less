@@ -1,0 +1,29 @@
+@import url('../../style/index.less');
+@color:#666;
+.less{
+  //background: @color*2;
+  .test(@w,@h){
+    width: unit(@w,px);
+    height: unit(@h,px);
+  }
+  //unit(1,px) 1px
+
+  //嵌套关系可以直接写在里面
+  h3{
+    color: pink;
+  }
+  .son1{
+    .test(50,50);
+    background: red;
+  }
+  .son2{
+    .test(100,100);
+    background: @themeColor;
+  }
+}
+
+
+
+
+
+
